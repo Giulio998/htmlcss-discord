@@ -32,10 +32,8 @@ a:link{
     min-height: 40px;
 }
 
-.debug .col-60{
-    border: 2px solid black;
+.col-60{ 
     min-height: 500px;
-    background-color: aqua;
 }
 
 .debug .col-60a{
@@ -49,11 +47,8 @@ a:link{
 
 }
 
-.debug .col-40{
-    min-height: 500px;
-    background-color: #ffc0cb;
-    border: 2px solid black;
-}
+.col-40{
+    min-height: 500px;}
 
 .debug .col{
     background-color: #228b22;
@@ -100,8 +95,8 @@ a:link{
     min-height: 500px;
 }
 
-.debug .greyBack{
-    background-color: grey;
+.greyBack{
+    background-color:whitesmoke;
 }
 
 .debug .blackBack{
@@ -166,7 +161,6 @@ a:link{
 }
 
 .rowFooter{
-  
     min-height: 80px;
     
 }
@@ -211,6 +205,39 @@ a:link{
     justify-content: center;
 }
 
+.textAlign{
+    text-align: center;
+}
+
+.wrap{
+    flex-wrap: wrap;
+}
+
+.customWidth{
+    width: 80%;
+}
+
+.displayColumn{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.spaceAround{
+    justify-content: space-around;
+}
+
+.customPadding{
+    padding-top: 85px;
+}
+
+.customMarginTop{
+    margin-top: 35px;
+}
+
+/* end utility */
+
+/* style + img/background */
 .topBackground{
     background-image: url(../img/jumbo.png);
     background-size: cover;
@@ -273,9 +300,6 @@ p{
     font-size: 20px;
 }
 
-.textAlign{
-    text-align: center;
-}
 .jumboButton{
     display: flex;
     justify-content: center;
@@ -293,28 +317,20 @@ p{
     font-size: 16px;
 }
 
-.wrap{
-    flex-wrap: wrap;
+.wave{
+    width: 100%;
+    display: block;
+    opacity: 4%;
+   
 }
 
-.customWidth{
-    width: 80%;
-}
+.reverseImg{
+    transform: scale(-1, -1);
 
-.displayColumn{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-
-.spaceAround{
-    justify-content: space-around;
-}
-
-.customPadding{
-    padding-top: 85px;
-}
-
-.customMarginTop{
-    margin-top: 35px;
+    
+    
+   
+    
+    
+    
 }

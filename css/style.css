@@ -19,6 +19,10 @@ a:link{
     
 }
 
+  li > a {
+    color: white;
+}
+
 /* .debug */
 
 
@@ -27,62 +31,11 @@ a:link{
    
 } */
 
-.debug .col-20 {
-    border: 2px solid black;
-    min-height: 40px;
-}
 
-.col-60{ 
-    min-height: 500px;
-}
-
-.debug .col-60a{
-    border: 2px solid black;
-}
-
- .col-75{
-    
-    min-height: 400px;
-  
-
-}
-
-.col-40{
-    min-height: 500px;}
-
-.debug .col{
-    background-color: #228b22;
-    min-height: 900px;
-    border: 2px solid black;
-}
-
-.debug .sectionB{ min-height: 600px;}
-
-.debug .col-17{
-    background-color: #20b2aa;
-    min-height: 580px;
-    border: 2px solid black; 
-}
-
-.debug .col-30{
-    background-color: #f08080;
-    min-height: 580px;
-    border: 2px solid black;
-}
-
-.debug .rowFooter{
-    background-color: aqua;
-    min-height: 80px;
-}
-
-.debug .colFooter{
-    min-height: 30px;
-    background-color: chocolate;
-}
 
  .jumboBack2{
-   
-    min-height: 1000px;
+   background-color: whitesmoke;
+  
 }
 
 .headBack{
@@ -99,14 +52,15 @@ a:link{
     background-color:whitesmoke;
 }
 
-.debug .blackBack{
+.blackBack{
     background-color: rgb(0, 0, 0);
-    border: 2px solid grey;
+   
 }
 
 
 
 /* struttura */
+
 
 .container{
    width: 1200px;
@@ -115,7 +69,7 @@ a:link{
 .row{
     display: flex;
     justify-content: center;
-    align-items: center;
+  
 }
 
 .col-20{
@@ -152,13 +106,9 @@ a:link{
 }
 
 .col-30{
-    width: 30%;
+    width: 27%;
 }
 
-.sectionFooter{
-    min-height: 120px;
-  
-}
 
 .rowFooter{
     min-height: 80px;
@@ -170,6 +120,10 @@ a:link{
 }
 
 /* utility */
+
+.inlineBlock{
+    display: inline-block;
+}
 
 .flexCenter{
     display: flex;
@@ -281,6 +235,9 @@ button{
     color: white
 }
 
+.blueButton > a {
+    color: white
+}
 
 h1{
     font-weight: 900;
@@ -327,10 +284,44 @@ p{
 .reverseImg{
     transform: scale(-1, -1);
 
-    
-    
+}
+
+.bigImg{
+    width: 100%;
+}
+
+h3{
+    font-size: 27px;
+    font-weight: 700;
+    width: 91%;
    
-    
-    
-    
+}
+
+.customH3{
+    line-height: 6px;
+    padding-bottom: 40px;
+}
+
+.blueButton{
+    background-color: rgb(111, 111, 196)
+}
+
+.blueFont{
+    color: rgb(131, 131, 251);
+}
+
+li {
+    margin-bottom: 5px;
+}
+
+.customMarginBot{
+    margin-bottom: 6px;
+}
+
+.hLine{
+width:100%; height: 1px; background: rgb(203, 235, 255)}
+
+.smallerLogo{
+    width: 6%;
+    margin: 5px;
 }

@@ -1,0 +1,286 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Open Sans", sans-serif;
+}
+
+ul{
+    list-style: none;
+}
+
+li{
+    display: flex;
+    text-wrap: nowrap;
+}
+
+a:link{
+    text-decoration: none;
+    
+}
+
+/* .debug */
+
+
+/* .debug .rowBack{
+    background-color: coral;
+   
+} */
+
+.debug .col-20 {
+    border: 2px solid black;
+    min-height: 40px;
+}
+
+.debug .col-60{
+    border: 2px solid black;
+    min-height: 500px;
+    background-color: aqua;
+}
+
+.debug .col-60a{
+    border: 2px solid black;
+}
+
+ .col-75{
+    
+    min-height: 400px;
+  
+
+}
+
+.debug .col-40{
+    min-height: 500px;
+    background-color: #ffc0cb;
+    border: 2px solid black;
+}
+
+.debug .col{
+    background-color: #228b22;
+    min-height: 900px;
+    border: 2px solid black;
+}
+
+.debug .sectionB{ min-height: 600px;}
+
+.debug .col-17{
+    background-color: #20b2aa;
+    min-height: 580px;
+    border: 2px solid black; 
+}
+
+.debug .col-30{
+    background-color: #f08080;
+    min-height: 580px;
+    border: 2px solid black;
+}
+
+.debug .rowFooter{
+    background-color: aqua;
+    min-height: 80px;
+}
+
+.debug .colFooter{
+    min-height: 30px;
+    background-color: chocolate;
+}
+
+ .jumboBack2{
+   
+    min-height: 1000px;
+}
+
+.headBack{
+   
+    height: 80px;
+}
+
+.jumboBackSmall{
+   
+    min-height: 500px;
+}
+
+.debug .greyBack{
+    background-color: grey;
+}
+
+.debug .blackBack{
+    background-color: rgb(0, 0, 0);
+    border: 2px solid grey;
+}
+
+
+
+/* struttura */
+
+.container{
+   width: 1200px;
+}
+
+.row{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.col-20{
+    width: 20%;
+}
+.col-60{
+    width: 60%;
+}
+
+.col-60a{
+    min-height: 40px;
+    width: 60%;
+    text-align: center
+}
+
+.col-75{
+    width: 65%;
+}
+
+.col{
+    width: 100%;
+}
+
+.col-40{
+    width: 40%;
+}
+
+
+.sectionB{}
+
+
+.col-17{
+    width: 17.5%;
+}
+
+.col-30{
+    width: 30%;
+}
+
+.sectionFooter{
+    min-height: 120px;
+  
+}
+
+.rowFooter{
+  
+    min-height: 80px;
+    
+}
+
+.colFooter{
+  padding: 5px;
+}
+
+/* utility */
+
+.flexCenter{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.flexStart{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.flexBetween{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.flexEnd{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.row-reverse{
+    flex-direction: row-reverse;
+}
+
+.align-item-end{
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+}
+
+.topBackground{
+    background-image: url(../img/jumbo.png);
+    background-size: cover;
+}
+
+.whiteFont{
+    color: white;
+}
+
+.linkGap{
+    gap:30%;
+}
+
+.whiteButton{
+    background-color: white;
+}
+
+.blackButton{
+    background-color: black;
+}
+
+button{
+    border-radius: 20px;
+    padding: 10px 17px;
+    border: none;
+}
+
+.blackFont{
+    color: black;
+}
+
+.linkGap > li > a {
+    color: white;
+}
+
+.whiteButton > a {
+    color: black;
+}
+
+.blackButton > a {
+    color: white
+}
+
+
+h1{
+    font-weight: 900;
+    font-size: 60px;
+    margin-bottom: 35px;
+}
+
+p{
+    font-size: 25px;
+}
+
+.textAlign{
+    text-align: center;
+}
+.jumboButton{
+    display: flex;
+    justify-content: center;
+    gap: 5%;
+    padding-top: 5%;
+}
+
+.headButton{
+    border-radius: 20px;
+    padding: 5px 10px;
+    border: none;
+}
+
+.downloadArrow{
+    font-size: 16px;
+}
